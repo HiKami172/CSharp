@@ -1,0 +1,11 @@
+D:\Projects\Demo\bin\Debug\Demo.exe.config
+D:\Projects\Demo\bin\Debug\Demo.exe
+D:\Projects\Demo\bin\Debug\Demo.pdb
+D:\Projects\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\Projects\Demo\obj\Debug\Demo.exe
+D:\Projects\Demo\obj\Debug\Demo.pdb
+D:\Projects\Demo\bin\Debug\TwentyOne.dll
+D:\Projects\Demo\bin\Debug\TwentyOne.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab1\Demo\bin\Debug\Demo.exe.config
+D:\Projects\Visual_Studio\SharpLab\SharpLab1\Demo\obj\Debug\Demo.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab1\Demo\obj\Debug\Demo.pdb

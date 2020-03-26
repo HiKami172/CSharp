@@ -1,0 +1,5 @@
+D:\Projects\TwentyOne\bin\Debug\TwentyOne.dll
+D:\Projects\TwentyOne\bin\Debug\TwentyOne.pdb
+D:\Projects\TwentyOne\obj\Debug\TwentyOne.csprojResolveAssemblyReference.cache
+D:\Projects\TwentyOne\obj\Debug\TwentyOne.dll
+D:\Projects\TwentyOne\obj\Debug\TwentyOne.pdb
