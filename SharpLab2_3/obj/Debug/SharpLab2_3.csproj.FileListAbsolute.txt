@@ -1,1 +1,2 @@
 D:\Projects\Visual_Studio\SharpLab2_3\bin\Debug\SharpLab2_3.exe.config
+D:\Projects\Visual_Studio\SharpLab\SharpLab2_3\bin\Debug\SharpLab2_3.exe.config
