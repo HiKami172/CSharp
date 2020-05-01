@@ -1,10 +1,7 @@
 ﻿/*В заданной строке поменять порядок слов на обратный (слова разделены пробелами)*/
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SharpLab2_1
 {
