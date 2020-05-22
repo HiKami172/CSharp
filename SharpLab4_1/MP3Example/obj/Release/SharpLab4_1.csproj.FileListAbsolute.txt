@@ -1,0 +1,9 @@
+D:\player\MusicPlayer\MP3Example\bin\Release\Player.exe.config
+D:\player\MusicPlayer\MP3Example\bin\Release\Player.exe
+D:\player\MusicPlayer\MP3Example\bin\Release\Player.pdb
+D:\player\MusicPlayer\MP3Example\obj\Release\Player.Form1.resources
+D:\player\MusicPlayer\MP3Example\obj\Release\Player.Properties.Resources.resources
+D:\player\MusicPlayer\MP3Example\obj\Release\SharpLab4_1.csproj.GenerateResource.cache
+D:\player\MusicPlayer\MP3Example\obj\Release\SharpLab4_1.csproj.CoreCompileInputs.cache
+D:\player\MusicPlayer\MP3Example\obj\Release\Player.exe
+D:\player\MusicPlayer\MP3Example\obj\Release\Player.pdb

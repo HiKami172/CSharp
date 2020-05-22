@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System;
+using System.Security;
 
 namespace SharpLab3
 {
@@ -8,6 +9,13 @@ namespace SharpLab3
         private string speciality;
         private string group;
         private int course = 1;
+        public delegate void StateHandler(string message);
+        StateHandler del;
+
+        public void RegisterHandler(StateHandler del)
+        {
+            this.del = del;
+        }
 
         public SpecialStudent(string speciality,int course, Form form, string name, string surname, int age, string UniverName) : base(name, surname, age, UniverName, form)
         {
@@ -49,6 +57,7 @@ namespace SharpLab3
             if (group != null)
                 Console.WriteLine("Group: " + group);
 
+            del?.Invoke(GetHobbies());
         }
 
     }

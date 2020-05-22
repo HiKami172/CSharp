@@ -1,0 +1,10 @@
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.csprojAssemblyReference.cache
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.Form1.resources
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.Properties.Resources.resources
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.csproj.GenerateResource.cache
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.csproj.CoreCompileInputs.cache
+D:\player\MP3Example\MP3Example\bin\Debug\MP3Example.exe
+D:\player\MP3Example\MP3Example\bin\Debug\MP3Example.pdb
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.exe
+D:\player\MP3Example\MP3Example\obj\Debug\MP3Example.pdb
+D:\player\MusicPlayer\MP3Example\bin\Debug\Player.exe.config

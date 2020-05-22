@@ -71,7 +71,7 @@ namespace SharpLab3
 
         public void GetInfo()
         {
-            Console.Write("Name: {0}\nSurname: {1}\nAge: {4}\nUniversity: {2}\nForm: {3}\n", name, surname, univer.name, form.ToString(),age);
+            Console.Write($"Name: {name}\nSurname: {surname}\nAge: {age}\nUniversity: {univer.name}\nForm: {form}\n");
         }
 
     }

@@ -7,6 +7,11 @@ namespace SharpLab3
 {
     class Program
     {
+        private static void ShowMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
+
         static void Main(string[] args)
         {
             //======================================Демонстрация работы базового класса=============================
@@ -102,6 +107,12 @@ namespace SharpLab3
                     Console.Write(spec[j][i] + ", ");
                 }
             }
+            Console.ReadKey();
+            Console.Clear();
+
+            //======================================Демонстрация работы делегатов=================================
+            specStud1.RegisterHandler(new SpecialStudent.StateHandler(ShowMessage));
+            specStud1.GetSpecInfo();
             Console.ReadKey();
         }
     }

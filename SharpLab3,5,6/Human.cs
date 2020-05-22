@@ -75,11 +75,15 @@ namespace SharpLab3
 
         public string GetHobbies()
         {
+            if (hobbyCount != 0)
+            { 
             string final = "";
             for (int i = 0; i < hobbyCount - 1; ++i)
                 final += hobbies[i] + ", ";
             final += hobbies[hobbyCount - 1];
             return final;
+            }
+            return "";
         }
 
         public class CompareAge : IComparer
