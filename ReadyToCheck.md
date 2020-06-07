@@ -6,4 +6,4 @@
 5) Ready
 6) Ready
 7) Ready
-8)
+8) Ready

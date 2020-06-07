@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections;
-using System.Linq;
-using System.Text;
+using System.Collections.Specialized;
 
 namespace SharpLab3
 {
     class Program
     {
-        private static void ShowMessage(string message)
-        {
-            Console.WriteLine(message);
-        }
-
         static void Main(string[] args)
         {
             //======================================Демонстрация работы базового класса=============================
@@ -110,10 +103,20 @@ namespace SharpLab3
             Console.ReadKey();
             Console.Clear();
 
-            //======================================Демонстрация работы делегатов=================================
-            specStud1.RegisterHandler(new SpecialStudent.StateHandler(ShowMessage));
+            //======================================Демонстрация работы c событиями=================================
+            specStud1.Notify += message => Console.WriteLine(message);
+            specStud1.GetSpecInfo();
+            specStud1.Notify -= message => Console.WriteLine(message);
+            Console.ReadKey();
+            specStud1.State += delegate (string message)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(message);
+                Console.ResetColor();
+            };
             specStud1.GetSpecInfo();
             Console.ReadKey();
+            //======================================================================================================
         }
     }
 }

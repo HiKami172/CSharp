@@ -10,12 +10,8 @@ namespace SharpLab3
         private string group;
         private int course = 1;
         public delegate void StateHandler(string message);
-        StateHandler del;
+        public event StateHandler Notify;
 
-        public void RegisterHandler(StateHandler del)
-        {
-            this.del = del;
-        }
 
         public SpecialStudent(string speciality,int course, Form form, string name, string surname, int age, string UniverName) : base(name, surname, age, UniverName, form)
         {
@@ -52,12 +48,13 @@ namespace SharpLab3
 
         public void GetSpecInfo()
         {
-            GetInfo();
-            Console.Write("Speciality: {0}\nCourse: {1}\n", speciality, course);
-            if (group != null)
-                Console.WriteLine("Group: " + group);
-
-            del?.Invoke(GetHobbies());
+            if (GetInfo())
+            {
+                Console.Write("Speciality: {0}\nCourse: {1}\n", speciality, course);
+                if (group != null)
+                    Console.WriteLine("Group: " + group);
+                Notify?.Invoke("Hobbies: " + GetHobbies());
+            }
         }
 
     }

@@ -7,6 +7,8 @@ namespace SharpLab3
         protected int[] entranceGrades = new int[3];
         protected University univer;
         protected Form form;
+        public delegate void CurrentStateHandler(string message);
+        public event CurrentStateHandler State;
 
         public Student(string name, string surname, int age, string UniverName, Form form) : base(name, surname, age)
         {
@@ -22,7 +24,7 @@ namespace SharpLab3
             occup = Occupation.University;
         }
 
-        public Student(Student student) : base(student.name, student.surname, student.age)
+        public Student(Student student) : base(student)
         {
             univer.name = student.univer.name;
             form = student.form;
@@ -69,9 +71,15 @@ namespace SharpLab3
             univer.yLocation = y;
         }
 
-        public void GetInfo()
+        public bool GetInfo()
         {
-            Console.Write($"Name: {name}\nSurname: {surname}\nAge: {age}\nUniversity: {univer.name}\nForm: {form}\n");
+            if (State == null)
+            {
+                Console.Write($"Name: {name}\nSurname: {surname}\nAge: {age}\nUniversity: {univer.name}\nForm: {form}\n");
+                return true;
+            }
+            State?.Invoke(name + " " + surname + " " + "was Expelled!");
+            return false;
         }
 
     }
