@@ -1,0 +1,13 @@
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.deps.json
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.runtimeconfig.json
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.runtimeconfig.dev.json
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.dll
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\bin\Debug\netcoreapp3.1\SharpLab7.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.csprojAssemblyReference.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.csproj.CoreCompileInputs.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.AssemblyInfoInputs.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.AssemblyInfo.cs
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.dll
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab7\obj\Debug\netcoreapp3.1\SharpLab7.genruntimeconfig.cache

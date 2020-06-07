@@ -1,0 +1,12 @@
+﻿Build started 01.06.2020 17:56:41.
+     1>Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\TestLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(14): error C2065: 'a' : undeclared identifier
+     1>dllmain.cpp(14): error C2143: syntax error : missing ';' before 'case'
+     1>Done Building Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\TestLib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.71

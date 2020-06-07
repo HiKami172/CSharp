@@ -1,0 +1,22 @@
+﻿Build started 01.06.2020 18:08:42.
+     1>Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\TestLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib dllmain.cpp pch.cpp math32.cpp
+         dllmain.cpp
+         pch.cpp
+         math32.cpp
+         Generating Code...
+     1>D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\dllmain.cpp : warning C4747: Calling managed '_DllMain@12': Managed code may not be run under loader lock, including the DLL entrypoint and calls reached from the DLL entrypoint
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\seimu\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\Release\TestLib.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\Release\TestLib.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\pch.obj
+         Release\math32.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         TestLib.vcxproj -> D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\Release\TestLib.dll
+     1>Done Building Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\TestLib\TestLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53

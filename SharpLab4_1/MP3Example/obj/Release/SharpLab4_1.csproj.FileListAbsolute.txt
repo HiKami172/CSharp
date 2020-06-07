@@ -7,3 +7,13 @@ D:\player\MusicPlayer\MP3Example\obj\Release\SharpLab4_1.csproj.GenerateResource
 D:\player\MusicPlayer\MP3Example\obj\Release\SharpLab4_1.csproj.CoreCompileInputs.cache
 D:\player\MusicPlayer\MP3Example\obj\Release\Player.exe
 D:\player\MusicPlayer\MP3Example\obj\Release\Player.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Release\Player.exe.config
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Release\Player.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Release\Player.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\SharpLab4_1.csprojAssemblyReference.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\Player.Form1.resources
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\Player.Properties.Resources.resources
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\SharpLab4_1.csproj.GenerateResource.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\SharpLab4_1.csproj.CoreCompileInputs.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\Player.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Release\Player.pdb

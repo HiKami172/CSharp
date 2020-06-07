@@ -1,0 +1,10 @@
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Debug\Player.exe.config
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Debug\Player.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\bin\Debug\Player.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\SharpLab4_1.csprojAssemblyReference.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\Player.Form1.resources
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\Player.Properties.Resources.resources
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\SharpLab4_1.csproj.GenerateResource.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\SharpLab4_1.csproj.CoreCompileInputs.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\Player.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_1\MP3Example\obj\Debug\Player.pdb

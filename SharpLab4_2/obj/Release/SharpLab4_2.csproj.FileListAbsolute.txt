@@ -1,0 +1,9 @@
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\bin\Release\SharpLab4_2.exe.config
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\bin\Release\SharpLab4_2.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\bin\Release\SharpLab4_2.pdb
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\bin\Release\TestLib.dll
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\obj\Release\SharpLab4_2.csprojAssemblyReference.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\obj\Release\SharpLab4_2.csproj.CoreCompileInputs.cache
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\obj\Release\SharpLab4_2.csproj.CopyComplete
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\obj\Release\SharpLab4_2.exe
+D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\obj\Release\SharpLab4_2.pdb

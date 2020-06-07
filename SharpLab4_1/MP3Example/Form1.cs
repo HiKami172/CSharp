@@ -2,12 +2,16 @@ using System;
 using System.Windows.Forms;
 using Needle;
 using System.IO;
+using System.Collections.Generic;
 
 namespace Player
 {
     public partial class Form1 : Form
     {
         MP3Player mplayer;
+        bool Next = false;
+        static int MusicNumber = 0;
+        List<string> MusicList;
         public Form1()
         {
             InitializeComponent();
@@ -99,12 +103,53 @@ namespace Player
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Next = false;
             OpenFileDialog fd = new OpenFileDialog();
             fd.Filter = "mp3 files|*.mp3";
             if (fd.ShowDialog() == DialogResult.OK)
             {
                 button1.Text = Path.GetFileNameWithoutExtension(fd.FileName);
                 mplayer.Open(fd.FileName);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Next = true;
+            string path = Environment.CurrentDirectory;
+            string fullPath = path + @"\Music";
+            MusicList = new List<string>();
+            string[] FileArr = Directory.GetFiles(fullPath);
+            for (int i = 0; i < FileArr.Length; i++)
+                if (Path.GetExtension(FileArr[i]) == ".mp3")
+                    MusicList.Add(FileArr[i]);
+            if (MusicList.Count != 0)
+            {
+                button1.Text = Path.GetFileNameWithoutExtension(MusicList[MusicNumber]);
+                mplayer.Open(MusicList[MusicNumber]);
+                mplayer.Play();
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (MusicList != null && MusicNumber + 1 != MusicList.Count)
+            {
+                MusicNumber++;
+                button1.Text = Path.GetFileNameWithoutExtension(MusicList[MusicNumber]);
+                mplayer.Open(MusicList[MusicNumber]);
+                mplayer.Play();
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (MusicList != null && MusicNumber - 1 >= 0)
+            {
+                MusicNumber--;
+                button1.Text = Path.GetFileNameWithoutExtension(MusicList[MusicNumber]);
+                mplayer.Open(MusicList[MusicNumber]);
+                mplayer.Play();
             }
         }
     }
