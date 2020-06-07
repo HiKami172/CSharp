@@ -1,8 +1,0 @@
-﻿Build started 01.06.2020 17:48:49.
-     1>Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\Math32\Win32Dll\Win32Dll.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install v142 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
-     1>Done Building Project "D:\Projects\Visual_Studio\SharpLab\SharpLab4_2\Math32\Win32Dll\Win32Dll.vcxproj" (Build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:00.01
